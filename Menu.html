@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Breeze House – Menu</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="menu-page">
+  <div class="site-wrapper">
+    <!-- SECTION: Header -->
+    <header class="site-header">
+      <nav class="nav-left">
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="about.html">About Us</a>
+        <a href="Contact us.html">Contact Us</a>
+        <a href="faqs.html">FAQs</a>
+      </nav>
+      <div class="brand-block">
+        <div>
+          <span class="brand-name">Breeze House</span>
+          <span class="brand-meta">EST.2026</span>
+        </div>
+        <div class="brand-location">Based in Yangon</div>
+      </div>
+    </header>
+
+    <main class="page-content">
+      <!-- SECTION: Sample Order -->
+      <section class="menu-sample">
+        <h1 class="menu-heading">Sample Order</h1>
+        <div class="wrapper">
+          <div class="menu-container">
+            <label class="menu-card" style="background-image:url('Photo/juice1.jpg');">
+              <div class="menu-card-inner">
+                <div class="menu-item-name">
+                  Still water with pineapple and yuzu ,garnished with chia seeds , enhanced with collagen sachets
+                </div>
+                <div class="menu-item-price">$11</div>
+              </div>
+            </label>
+
+            <label class="menu-card" style="background-image:url('Photo/juice2.jpg');">
+              <div class="menu-card-inner">
+                <div class="menu-item-name">
+                  Coconut water with mango ,garnished with cocoa powder ,enhanced with pre-biotic and vitamin-E sachets
+                </div>
+                <div class="menu-item-price">$13</div>
+              </div>
+            </label>
+
+            <label class="menu-card" style="background-image:url('Photo/juice3.jpg');">
+              <div class="menu-card-inner">
+                <div class="menu-item-name">
+                  Sparkling water with white peach and mango, garnished with fruit pearls ,enhance with vitamin-C and collagen sachets
+                </div>
+                <div class="menu-item-price">$18</div>
+              </div>
+            </label>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION: Build Your Own Drink -->
+      <section class="build-section">
+        <div class="build-header">
+          <h2 class="build-title">Build Your Own Drink</h2>
+          <p class="build-subtitle">Your drink, your flavours, your way.</p>
+        </div>
+
+        <!-- 01 - Base -->
+        <div class="build-block">
+          <h3 class="build-block-title">01 — Choose Your Base</h3>
+          <div class="build-base-row">
+            <div class="build-option">
+              <input class="build-input" type="radio" name="base" id="base-still" checked>
+              <label for="base-still" class="build-card">
+                <div>
+                  <div class="build-icon">∿</div>
+                  <div class="build-label-main">Still Water</div>
+                </div>
+                <div class="build-price">Base price: $1</div>
+              </label>
+            </div>
+
+            <div class="build-option">
+              <input class="build-input" type="radio" name="base" id="base-sparkling">
+              <label for="base-sparkling" class="build-card">
+                <div>
+                  <div class="build-icon">◎</div>
+                  <div class="build-label-main">Sparkling Water</div>
+                </div>
+                <div class="build-price">Base price: $2</div>
+              </label>
+            </div>
+
+            <div class="build-option">
+              <input class="build-input" type="radio" name="base" id="base-coconut">
+              <label for="base-coconut" class="build-card">
+                <div>
+                  <div class="build-icon">◍</div>
+                  <div class="build-label-main">Coconut Water</div>
+                </div>
+                <div class="build-price">Base price: $2</div>
+              </label>
+            </div>
+          </div>
+        </div>
+
+        <!-- 02 - Temperature -->
+        <div class="build-block">
+          <h3 class="build-block-title">02 — Pick Your Temperature</h3>
+          <div class="build-temp-row">
+            <div class="build-option">
+              <input class="build-input" type="radio" name="temp" id="temp-room" >
+              <label for="temp-room" class="build-card-tall">
+                <div>
+                  <div class="build-icon">🌡</div>
+                  <div class="build-label-main">Room Temperature</div>
+                </div>
+                <div class="build-price">Gentle, mellow sipping.</div>
+              </label>
+            </div>
+
+            <div class="build-option">
+              <input class="build-input" type="radio" name="temp" id="temp-cold">
+              <label for="temp-cold" class="build-card-tall">
+                <div>
+                  <div class="build-icon">❄</div>
+                  <div class="build-label-main">Extra Cold</div>
+                </div>
+                <div class="build-price">Crisp, icy refreshment.</div>
+              </label>
+            </div>
+          </div>
+        </div>
+
+        <!-- 03 - Flavours -->
+        <div class="build-block">
+          <h3 class="build-block-title">03 — Mix Your Flavours</h3>
+          <div class="flavour-grid">
+            <div class="build-option">
+              <input class="build-input" type="checkbox" id="flavour-white-peach">
+              <label for="flavour-white-peach" class="flavour-card">
+                <div class="flavour-left">
+                  <span class="flavour-dot" style="background-color:#F3B7A8;"></span>
+                  <span class="flavour-name">White Peach</span>
+                </div>
+                <div class="flavour-plus">＋</div>
+              </label>
+            </div>
+
+            <div class="build-option">
+              <input class="build-input" type="checkbox" id="flavour-mango">
+              <label for="flavour-mango" class="flavour-card">
+                <div class="flavour-left">
+                  <span class="flavour-dot" style="background-color:#F3D875;"></span>
+                  <span class="flavour-name">Mango</span>
+                </div>
+                <div class="flavour-plus">＋</div>
+              </label>
+            </div>
+
+            <div class="build-option">
+              <input class="build-input" type="checkbox" id="flavour-pineapple">
+              <label for="flavour-pineapple" class="flavour-card">
+                <div class="flavour-left">
+                  <span class="flavour-dot" style="background-color:#F2DF86;"></span>
+                  <span class="flavour-name">Pineapple</span>
+                </div>
+                <div class="flavour-plus">＋</div>
+              </label>
+            </div>
+
+            <div class="build-option">
+              <input class="build-input" type="checkbox" id="flavour-yuzu">
+              <label for="flavour-yuzu" class="flavour-card">
+                <div class="flavour-left">
+                  <span class="flavour-dot" style="background-color:#DCE9A4;"></span>
+                  <span class="flavour-name">Yuzu</span>
+                </div>
+                <div class="flavour-plus">＋</div>
+              </label>
+            </div>
+
+            <div class="build-option">
+              <input class="build-input" type="checkbox" id="flavour-green-grape">
+              <label for="flavour-green-grape" class="flavour-card">
+                <div class="flavour-left">
+                  <span class="flavour-dot" style="background-color:#BFE2D2;"></span>
+                  <span class="flavour-name">Green Grape</span>
+                </div>
+                <div class="flavour-plus">＋</div>
+              </label>
+            </div>
+
+            <div></div>
+          </div>
+         <!-- in line css--> <p style="margin-top:10px;font-size:13px;color:#a0a0a0;">Each flavour add-on: $2</p>
+        </div>
+
+        <!-- 04 - Boosts -->
+        <div class="build-block">
+          <h3 class="build-block-title">04 — Functional Boosts</h3>
+          <p style="font-size:14px;color:#a0a0a0;">Optional add-ons</p>
+          <div class="boost-row">
+            <div class="build-option">
+              <input class="build-input" type="checkbox" id="boost-collagen">
+              <label for="boost-collagen" class="boost-pill">Collagen + ($4)</label>
+            </div>
+            <div class="build-option">
+              <input class="build-input" type="checkbox" id="boost-prebiotic">
+              <label for="boost-prebiotic" class="boost-pill">Prebiotic + ($2)</label>
+            </div>
+            <div class="build-option">
+              <input class="build-input" type="checkbox" id="boost-spirulina">
+              <label for="boost-spirulina" class="boost-pill">Spirulina + ($4)</label>
+            </div>
+            <div class="build-option">
+              <input class="build-input" type="checkbox" id="boost-vitamin-e">
+              <label for="boost-vitamin-e" class="boost-pill">Vitamin E + ($4)</label>
+            </div>
+            <div class="build-option">
+              <input class="build-input" type="checkbox" id="boost-vitamin-c">
+              <label for="boost-vitamin-c" class="boost-pill">Vitamin C + ($4)</label>
+            </div>
+          </div>
+        </div>
+
+        <!-- 05 - Toppings -->
+        <div class="build-block">
+          <h3 class="build-block-title">05 — Add Your Toppings</h3>
+          <div class="topping-row">
+            <div class="build-option">
+              <input class="build-input" type="checkbox" id="topping-chia">
+              <label for="topping-chia" class="topping-pill">Chia Seeds ($2)</label>
+            </div>
+            <div class="build-option">
+              <input class="build-input" type="checkbox" id="topping-fruit-pearls">
+              <label for="topping-fruit-pearls" class="topping-pill">Fruit Pearls ($4)</label>
+            </div>
+            <div class="build-option">
+              <input class="build-input" type="checkbox" id="topping-cocoa">
+              <label for="topping-cocoa" class="topping-pill">Cocoa Powder ($3)</label>
+            </div>
+            <div class="build-option">
+              <input class="build-input" type="checkbox" id="topping-coffee-ice">
+              <label for="topping-coffee-ice" class="topping-pill">Coffee Ice Cubes ($4)</label>
+            </div>
+            <div class="build-option">
+              <input class="build-input" type="checkbox" id="topping-watermelon">
+              <label for="topping-watermelon" class="topping-pill">Watermelon Slices ($3)</label>
+            </div>
+          </div>
+        </div>
+
+        
+        <!-- Choose portion -->
+<div class="build-block">
+    <h3 class="build-block-title">Choose your portion</h3>
+    <div class="portion-row">
+        <div class="build-option">
+          <input class="build-input" type="radio" name="portion" id="portion-small" checked>
+          <label for="portion-small" class="portion-box">
+            <img src="Photo/minipizzy.jpg" class="portion-img" alt="Small Juice">
+                <div class="portion-label">Small</div>
+                <div class="portion-size">350 ml</div>
+            </label>
+        </div>
+        <div class="build-option">
+            <input class="build-input" type="radio" name="portion" id="portion-small" checked>
+          <label for="portion-small" class="portion-box">
+            <img src="Photo/big.jpg" class="portion-img" alt="Big Juice">
+                <div class="portion-label">Large</div>
+                <div class="portion-size">600 ml</div>
+            </label>
+        </div>
+    </div>
+</div>
+      </section>
+    </main>
+
+    <!-- SECTION: Marquee -->
+    <div class="marquee-strip">
+  <marquee behavior="scroll" direction="left" scrollamount="5">
+    Get ready to crave, the Breeze House way &bull; Get ready to crave, the Breeze House way&bull;Get ready to crave, the Breeze House way &bull;Get ready to crave, the Breeze House way &bull;Get ready to crave, the Breeze House way &bull;Get ready to crave, the Breeze House way &bull;Get ready to crave, the Breeze House way &bull;Get ready to crave, the Breeze House way 
+  </marquee>
+</div>
+    
+
+    <!-- SECTION: Footer -->
+    <footer class="site-footer">
+      <div class="footer-left">
+        <p>Copyright@2026BreezeHouse .All rights reserved.</p>
+        <p>Developed by San Yati Wynn(B 6-26)</p>
+      </div>
+      <div class="footer-right">
+        <p>follow us on-</p>
+        <div class="footer-icons">
+          <a href="#" class="footer-icon">T</a>
+          <a href="#" class="footer-icon">I</a><!--like keeps you on same floor,while you are still building the rest of website hallway-->
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
